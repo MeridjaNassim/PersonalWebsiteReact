@@ -13,7 +13,7 @@ const ContactForm = () => {
     /// sending email.
 
     let templateParams = {
-      from_name: `${fname} ${lname} ${email}`,
+      from_name: `${fname + " " + lname + " " + email}`,
       to_name: "Abdellah Meridja",
       subject: "Personal Website Contact",
       message_html: message
@@ -24,6 +24,7 @@ const ContactForm = () => {
       templateParams,
       "user_X9yvYwTOP0XDf0K1EyFwE"
     );
+
     resetForm();
   };
   const resetForm = () => {
@@ -59,7 +60,7 @@ const ContactForm = () => {
             marginBottom: 10
           }}
         >
-          <Col>
+          <Col md={6}>
             <Form.Control
               placeholder="First name"
               required
@@ -68,8 +69,9 @@ const ContactForm = () => {
               value={fname}
             />
           </Col>
-          <Col>
+          <Col md={6}>
             <Form.Control
+              style={{ padding: 10 }}
               placeholder="Last name"
               name="lname"
               required

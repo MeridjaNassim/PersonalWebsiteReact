@@ -8,11 +8,17 @@ const Footer = () => {
     <footer>
       <Container>
         <Row>
-          <Col>
+          <Col md={6}>
             <ContactForm />
           </Col>
-          <Col>
-            <p>Or contact me at</p>
+          <Col md={6}>
+            <p
+              style={{
+                marginTop: "0.75rem"
+              }}
+            >
+              Or contact me at
+            </p>
             <SocialMedia />
             <AppInfo></AppInfo>
           </Col>

@@ -10,7 +10,7 @@ const About = () => {
   return (
     <Container>
       <Row className="row">
-        <Col>
+        <Col md={6}>
           {/**ArtWork */}
           <img
             src={art}
@@ -21,7 +21,7 @@ const About = () => {
             }}
           />
         </Col>
-        <Col>
+        <Col md={6}>
           <AboutInfo />
           <Download></Download>
         </Col>

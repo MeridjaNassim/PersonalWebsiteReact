@@ -20,11 +20,11 @@ const Skills = ({ id }) => {
     <section id={id}>
       <Container>
         <Row>
-          <Col>
+          <Col md={6}>
             <h1 className="title">Technical Skills </h1>
             {skilltools}
           </Col>
-          <Col>
+          <Col md={6}>
             <h1 className="title">General Skills </h1>
             <ul className="circular-bars mr-auto ml-auto ">{proSkills}</ul>
           </Col>
