@@ -5,12 +5,22 @@
 }
 .dark-bg {
   background-color: #100e17;
+  -webkit-box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 42px 10px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
 }
 .link {
   font-family: "roboto", sans-serif;
   font-size: 1rem;
 }
 .link:hover {
+  border-bottom: 1px solid white;
+  color: aquamarine !important;
+  border-bottom-color: aquamarine;
+}
+
+.link.active {
   border-bottom: 1px solid white;
   color: aquamarine !important;
   border-bottom-color: aquamarine;

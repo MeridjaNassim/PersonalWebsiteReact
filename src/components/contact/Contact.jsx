@@ -4,9 +4,9 @@ import { icons, other } from "../home/Info";
 import { Container, Row } from "react-bootstrap";
 
 import "../../styles/contact/contact.css";
-const Contact = () => {
+const Contact = ({ id }) => {
   return (
-    <div className="contact">
+    <div className="contact" id={id}>
       <h1 className="title">Contacts</h1>
       <Container
         style={{

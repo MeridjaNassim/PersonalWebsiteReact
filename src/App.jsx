@@ -10,20 +10,40 @@ import Work from "./components/Academic/Work";
 import Divers from "./components/divers/Divers";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/common/Footer";
-
+import { Fade } from "react-reveal";
 function App() {
   return (
     <div className="App">
       <NavigationBar />
+      <Fade>
+        <Home id="/" />
+      </Fade>
+      <Fade>
+        <About id="About" />
+      </Fade>
+      <Fade>
+        <Skills id="Skills"></Skills>
+      </Fade>
 
-      <Home />
-      <About />
-      <Skills></Skills>
-      <Academic />
-      <Work></Work>
-      <Projects></Projects>
-      <Divers />
-      <Contact></Contact>
+      <Fade>
+        <Academic id="Academic" />
+      </Fade>
+
+      <Fade>
+        <Work id="Work" />
+      </Fade>
+
+      <Fade>
+        <Projects id="projects" />
+      </Fade>
+
+      <Fade>
+        <Divers id="Interests" />
+      </Fade>
+
+      <Fade>
+        <Contact id="Contact" />
+      </Fade>
 
       <div className="bg-world">
         <Footer />

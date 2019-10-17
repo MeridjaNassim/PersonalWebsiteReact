@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+
 import "../styles/navigation.css";
 const NavigationBar = () => {
   return (
     <Navbar
       expand="lg"
-      expanded={true}
       fixed="top"
       sticky="top"
       variant="dark"
@@ -29,7 +29,7 @@ const NavigationBar = () => {
           <Nav.Link className="link " href="#Work">
             Work Experience
           </Nav.Link>
-          <Nav.Link className="link " href="#Portfolio">
+          <Nav.Link className="link " href="#projects">
             Portfolio
           </Nav.Link>
           <Nav.Link className="link " href="#Interests">

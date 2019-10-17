@@ -3,7 +3,7 @@ import { ProgressBar, Row, Col, Container } from "react-bootstrap";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "../../styles/skills/skills.css";
-const Skills = () => {
+const Skills = ({ id }) => {
   const skilltools = skills.map(skill => {
     return (
       <SkillBar name={skill.name} icon={skill.icon} now={skill.now}></SkillBar>
@@ -17,18 +17,20 @@ const Skills = () => {
     );
   });
   return (
-    <Container>
-      <Row>
-        <Col>
-          <h1 className="title">Technical Skills </h1>
-          {skilltools}
-        </Col>
-        <Col>
-          <h1 className="title">General Skills </h1>
-          <ul className="circular-bars mr-auto ml-auto ">{proSkills}</ul>
-        </Col>
-      </Row>
-    </Container>
+    <section id={id}>
+      <Container>
+        <Row>
+          <Col>
+            <h1 className="title">Technical Skills </h1>
+            {skilltools}
+          </Col>
+          <Col>
+            <h1 className="title">General Skills </h1>
+            <ul className="circular-bars mr-auto ml-auto ">{proSkills}</ul>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 };
 const SkillCircle = ({ name, per }) => {

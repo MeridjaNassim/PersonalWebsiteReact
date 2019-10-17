@@ -3,9 +3,9 @@ import CardElement from "../common/CardElement";
 import { Row, Col, Container } from "react-bootstrap";
 import gdg from "../../assets/gdg-google-developer-group-logo.svg";
 import cse from "../../assets/cse.png";
-const Work = () => {
+const Work = ({ id }) => {
   return (
-    <div>
+    <section id={id}>
       <Container>
         <h1 className="title">Work Experience</h1>
         <Row>
@@ -57,7 +57,7 @@ const Work = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

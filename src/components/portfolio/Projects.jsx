@@ -5,7 +5,7 @@ import github from "../../assets/github.png";
 import weatherlab from "../../assets/icon.ico";
 import logo from "../../logo.svg";
 import CenteredIcon from "../common/CenteredIcon";
-const Projects = () => {
+const Projects = ({ id }) => {
   const ps = projects.map(item => (
     <li
       style={{
@@ -20,18 +20,20 @@ const Projects = () => {
     </li>
   ));
   return (
-    <Container>
-      <h1 className="title">Portfolio</h1>
-      <Container
-        style={{
-          textAlign: "center"
-        }}
-      >
-        <Row>
-          <ul className="mr-auto ml-auto ">{ps}</ul>
-        </Row>
+    <section id={id}>
+      <Container>
+        <h1 className="title">Portfolio</h1>
+        <Container
+          style={{
+            textAlign: "center"
+          }}
+        >
+          <Row>
+            <ul className="mr-auto ml-auto ">{ps}</ul>
+          </Row>
+        </Container>
       </Container>
-    </Container>
+    </section>
   );
 };
 
@@ -39,7 +41,7 @@ const projects = [
   {
     icon: <CenteredIcon icon={logo}></CenteredIcon>,
     content: <p className="centered-text">Personal Website</p>,
-    link: `http://localhost:3000/`
+    link: `https://github.com/MeridjaNassim/PersonalWebsiteReact`
   },
   {
     icon: <CenteredIcon icon={github}></CenteredIcon>,

@@ -5,7 +5,7 @@ import CenteredIcon from "../common/CenteredIcon";
 import dumbell2 from "../../assets/dumbell2.png";
 import pad from "../../assets/gamepad.png";
 import book from "../../assets/book.png";
-const Divers = () => {
+const Divers = ({ id }) => {
   const items = divers.map(item => {
     return (
       <li
@@ -18,7 +18,7 @@ const Divers = () => {
     );
   });
   return (
-    <div>
+    <section id={id}>
       <h1 className="title">Intrests</h1>
       <Container
         style={{
@@ -29,7 +29,7 @@ const Divers = () => {
           <ul className="mr-auto ml-auto ">{items}</ul>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 
