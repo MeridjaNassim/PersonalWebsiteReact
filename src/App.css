@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: #100e17;
 }
 
 .App-logo {
@@ -7,10 +7,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: inherit;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -19,4 +20,56 @@
 
 .App-link {
   color: #09d3ac;
+}
+.title {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  font-size: 3rem;
+  color: aliceblue;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+.btn {
+  margin-left: 2rem;
+  text-align: center;
+  padding: 1rem;
+  align-self: auto;
+  background-color: rgb(62, 184, 143);
+  border-color: transparent;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: rgb(75, 211, 166);
+  outline: aquamarine;
+}
+.btn:active {
+  background-color: rgb(75, 211, 166) !important;
+  border-color: aquamarine !important;
+}
+.centered-text {
+  text-align: center;
+}
+.bg-world {
+  background-image: url("./assets/map-color-overlay.png");
+}
+.form-control:focus {
+  border-color: aquamarine;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0px 0px 8px rgb(66, 134, 111);
+}
+.btn:focus {
+  border-color: aquamarine;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0px 0px 8px rgb(66, 134, 111);
 }

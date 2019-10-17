@@ -1,0 +1,26 @@
+.contact-icon {
+  font-size: 3em;
+  border-radius: 50%;
+  border: solid;
+  line-height: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  display: inline-block;
+  transition: 0.5s;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(0, 143, 104),
+    rgb(250, 224, 66)
+  );
+  border-image-slice: 1;
+}
+
+.contact ul li {
+  padding: 1rem;
+}
+.contact h2,
+.contact p {
+  text-align: center;
+  padding-top: 1rem;
+}

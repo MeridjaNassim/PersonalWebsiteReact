@@ -1,0 +1,58 @@
+.art {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+p i {
+  color: aquamarine;
+}
+
+.tools {
+  margin: 0;
+  float: left;
+  list-style: initial;
+}
+.tools li {
+  margin-right: 5%;
+}
+.tools p {
+  text-align: center;
+  color: aquamarine;
+  min-width: 2rem;
+  padding: 5px;
+  border: 1px solid aquamarine;
+  border-radius: 10%;
+}
+.btn {
+  margin-left: 2rem;
+  text-align: center;
+  padding: 1rem;
+  align-self: auto;
+  background-color: rgb(62, 184, 143);
+  border-color: transparent;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: rgb(75, 211, 166);
+}
+.btn:active {
+  background-color: rgb(75, 211, 166) !important;
+  border-color: aquamarine !important;
+}
+
+.row {
+  margin-bottom: 10rem;
+}
+
+.whatido h1 {
+  text-align: center;
+  font-family: inherit;
+  font-size: 3rem;
+  color: aliceblue;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,67 @@
+.progress-bar {
+  background-color: rgb(71, 204, 160);
+  height: 0.75em;
+}
+.progress {
+  background-color: grey;
+  height: 0.75em;
+}
+.now {
+  float: right;
+  color: aliceblue;
+
+  font-family: "roboto", sans-serif;
+  font-size: 17px;
+}
+.textItem {
+  margin-bottom: "1rem";
+  text-align: center;
+  color: aliceblue;
+  margin-left: "1rem";
+  font-family: "roboto", sans-serif;
+  font-size: 17px;
+}
+.skill {
+  text-align: left;
+  color: aliceblue;
+  font-family: "roboto", sans-serif;
+  font-size: 17px;
+}
+.CircularProgressbar {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: aquamarine;
+}
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: gray;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  font-weight: 500;
+
+  font-family: "roboto", sans-serif;
+  fill: aquamarine;
+}
+.CircularProgressbar .CircularProgressbar-background {
+  fill: grey;
+}
+.circular-bars {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.circular-bars li {
+  padding-left: 1rem;
+  max-width: 8rem;
+  display: inline;
+}
+.title {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+  font-size: 3rem;
+  color: aliceblue;
+}

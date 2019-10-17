@@ -1,0 +1,17 @@
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.dark-bg {
+  background-color: #100e17;
+}
+.link {
+  font-family: "roboto", sans-serif;
+  font-size: 1rem;
+}
+.link:hover {
+  border-bottom: 1px solid white;
+  color: aquamarine !important;
+  border-bottom-color: aquamarine;
+}

@@ -1,0 +1,32 @@
+.card {
+  font-family: inherit;
+  -webkit-box-shadow: 10px 10px 42px 15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 42px 15px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 42px 15px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+  background-color: #252031;
+  min-height: 25vh;
+  min-width: 30ch;
+}
+.card h2 {
+  font-family: inherit;
+  text-shadow: #14111d;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+.card i {
+  color: aquamarine;
+  font-size: 100%;
+}
+.card:hover {
+  -webkit-box-shadow: 10px 10px 42px 30px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 42px 30px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 42px 30px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  text-align: left;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
