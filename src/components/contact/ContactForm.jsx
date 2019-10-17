@@ -11,10 +11,11 @@ const ContactForm = () => {
   const onSubmit = e => {
     e.preventDefault();
     /// sending email.
+
     let templateParams = {
-      from_name: email,
-      to_name: "<YOUR_EMAIL_ID>",
-      subject: "ha_meridja@esi.dz",
+      from_name: `${fname} ${lname} ${email}`,
+      to_name: "Abdellah Meridja",
+      subject: "Personal Website Contact",
       message_html: message
     };
     emailjs.send(
