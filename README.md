@@ -20,7 +20,7 @@ This is my first Personal website created using ReactJS for the front-end . The 
 *React-Reveal(Animations)
 
 ### Next Steps : 
-  *Maintain it
+  * Maintain it
   * Make it Better
 
 ### `Packages Used`
