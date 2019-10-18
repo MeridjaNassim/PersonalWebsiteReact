@@ -63,20 +63,23 @@ const ContactForm = () => {
           <Col md={6}>
             <Form.Control
               placeholder="First name"
+              type="text"
               required
               onChange={onChange}
               name="fname"
               value={fname}
+              className="custom-input"
             />
           </Col>
           <Col md={6}>
             <Form.Control
-              style={{ padding: 10 }}
+              type="text"
               placeholder="Last name"
               name="lname"
               required
               value={lname}
               onChange={onChange}
+              className="custom-input"
             />
           </Col>
         </Row>
@@ -89,13 +92,16 @@ const ContactForm = () => {
             required
             value={email}
             onChange={onChange}
+            className="custom-input"
           />
         </Form.Group>
 
         <Form.Group controlId="exampleForm.ControlTextarea1">
           <Form.Control
             as="textarea"
+            type="text"
             rows="3"
+            className="custom-input"
             name="message"
             value={message}
             placeholder="Your Message"

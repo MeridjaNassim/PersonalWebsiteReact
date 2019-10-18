@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 const Download = () => {
   return (
     <div>
-      <Button href="" download>
+      <Button href="./MeridjaNassimCV.jpg" download>
         <i className="fas fa-download"></i> Download CV
       </Button>
     </div>
