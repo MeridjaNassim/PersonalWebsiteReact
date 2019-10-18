@@ -24,5 +24,5 @@ This is my first Personal website created using ReactJS for the front-end . The 
   * Maintain it
   * Make it Better
 
-### `Packages Used`
+### `Deployed Website`
 link to site : [Meridja Nassim](https://meridjanassim.github.io/)
