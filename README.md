@@ -20,7 +20,7 @@ This is my first Personal website created using ReactJS for the front-end . The 
   * <strong>React-Reveal</strong> for fade animations
   * <strong>EmailJS</strong> for handling form submit mails
 
-### Next Steps : 
+### `Next Steps` 
   * Maintain it
   * Make it Better
 
