@@ -15,9 +15,10 @@ This is my first Personal website created using ReactJS for the front-end . The 
 <img src="./screenshots/screen4.JPG" alt="scr4"/>
 
 ### `Packages Used`
-
-*React-Bootstrap (styles)
-*React-Reveal(Animations)
+  * <strong>React-Bootstrap</strong> for customized styles
+  * <strong>React-Circular-ProgressBar</strong> for circular progressbars
+  * <strong>React-Reveal</strong> for fade animations
+  * <strong>EmailJS</strong> for handling form submit mails
 
 ### Next Steps : 
   * Maintain it
